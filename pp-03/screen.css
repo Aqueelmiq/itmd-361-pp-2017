@@ -38,18 +38,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   height: 100vw;
 }
 
-#three {
-
-}
-
-#two {
-
-}
-
-#one {
-
-}
-
 @media screen and (min-width: 600px) {
   #content {
     flex-wrap: wrap-reverse;
