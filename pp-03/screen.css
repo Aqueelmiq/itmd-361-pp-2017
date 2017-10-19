@@ -70,7 +70,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   #three,
   #two,
   #one {
-    width: 33.3333333333%;
-    height: 33.3333333333vw;
+    width: calc(100%/3);
+    height: calc(100vw/3);
   }
 }
