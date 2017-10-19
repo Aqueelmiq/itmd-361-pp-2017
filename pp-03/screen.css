@@ -52,6 +52,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 @media screen and (min-width: 600px) {
   #content {
+    flex-wrap: wrap-reverse;
     flex-direction: row-reverse;
   }
 
@@ -66,5 +67,10 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 
 @media screen and (min-width: 800px) {
-
+  #three,
+  #two,
+  #one {
+    width: 33.3333333333%;
+    height: 33.3333333333vw;
+  }
 }
