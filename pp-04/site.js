@@ -49,5 +49,9 @@ function addTwo(x) {
   return x;
 }
 
+// x is passed as a function parameter.
+// scope of the function parameter is restricted to the function itself
+// so the global x is not modified as the parameter is modified instead
+
 console.log(addTwo(4)); // 6
 console.log(x); // should be 5 if you corrected the double() function above
