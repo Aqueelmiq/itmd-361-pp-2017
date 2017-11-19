@@ -16,11 +16,13 @@
   });
 
   bellSound.addEventListener('play', function() {
-    $('#bell').after('<p id="ringing">((( Doorbell Rings )))</p>');
+    $('#bell').remove();
+    $('main').append('<p id="ringing">((( Doorbell Rings )))</p>');
   });
 
   bellSound.addEventListener('ended', function() {
     $('#ringing').remove();
+    $('main').append('<button id="bell"> Ring </button>');
   });
 
 })($);
