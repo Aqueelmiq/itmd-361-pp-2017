@@ -4,5 +4,10 @@
   $('article').remove();
   $('main').append('<button id="bell"> Ring </button>');
 
+  function ring() {
+    bellSound.play();
+  }
+  $('#bell').on('click', ring);
+
 
 })($);
