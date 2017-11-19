@@ -9,5 +9,10 @@
   }
   $('#bell').on('click', ring);
 
+  $(document).keypress(function(event) {
+    if(event.key === 'd') {
+      ring();
+    }
+  });
 
 })($);
