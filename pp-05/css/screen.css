@@ -18,6 +18,9 @@ body {
   padding: 10%;
 }
 
+button:hover {
+  cursor: pointer;
+}
 
 /* ===== LAYOUT STYLES ===== */
 
