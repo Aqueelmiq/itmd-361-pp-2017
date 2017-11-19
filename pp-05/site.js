@@ -15,4 +15,12 @@
     }
   });
 
+  bellSound.addEventListener('play', function() {
+    $('#bell').after('<p id="ringing">((( Doorbell Rings )))</p>');
+  });
+
+  bellSound.addEventListener('ended', function() {
+    $('#ringing').remove();
+  });
+
 })($);
